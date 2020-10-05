@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F241662252B52DD005768DF /* MediFull WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8F241661252B52DD005768DF /* MediFull WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8F241668252B52DD005768DF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F241666252B52DD005768DF /* Interface.storyboard */; };
+		8F24166A252B52DE005768DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F241669252B52DE005768DF /* Assets.xcassets */; };
+		8F241671252B52DE005768DF /* MediFull WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8F241670252B52DE005768DF /* MediFull WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8F241676252B52DE005768DF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F241675252B52DE005768DF /* InterfaceController.swift */; };
+		8F241678252B52DE005768DF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F241677252B52DE005768DF /* ExtensionDelegate.swift */; };
+		8F24167A252B52DE005768DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F241679252B52DE005768DF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F241663252B52DD005768DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F241657252B52DC005768DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F241660252B52DD005768DF;
+			remoteInfo = "MediFull WatchKit App";
+		};
+		8F241672252B52DE005768DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F241657252B52DC005768DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F24166F252B52DE005768DF;
+			remoteInfo = "MediFull WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F241681252B52DE005768DF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8F241671252B52DE005768DF /* MediFull WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F241685252B52DE005768DF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8F241662252B52DD005768DF /* MediFull WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F24165D252B52DD005768DF /* MediFull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediFull.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F241661252B52DD005768DF /* MediFull WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MediFull WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F241667252B52DD005768DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8F241669252B52DE005768DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F24166B252B52DE005768DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F241670252B52DE005768DF /* MediFull WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MediFull WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F241675252B52DE005768DF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8F241677252B52DE005768DF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8F241679252B52DE005768DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F24167B252B52DE005768DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F24166D252B52DE005768DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F241656252B52DC005768DF = {
+			isa = PBXGroup;
+			children = (
+				8F241665252B52DD005768DF /* MediFull WatchKit App */,
+				8F241674252B52DE005768DF /* MediFull WatchKit Extension */,
+				8F24165E252B52DD005768DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F24165E252B52DD005768DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F24165D252B52DD005768DF /* MediFull.app */,
+				8F241661252B52DD005768DF /* MediFull WatchKit App.app */,
+				8F241670252B52DE005768DF /* MediFull WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F241665252B52DD005768DF /* MediFull WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8F241666252B52DD005768DF /* Interface.storyboard */,
+				8F241669252B52DE005768DF /* Assets.xcassets */,
+				8F24166B252B52DE005768DF /* Info.plist */,
+			);
+			path = "MediFull WatchKit App";
+			sourceTree = "<group>";
+		};
+		8F241674252B52DE005768DF /* MediFull WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8F241675252B52DE005768DF /* InterfaceController.swift */,
+				8F241677252B52DE005768DF /* ExtensionDelegate.swift */,
+				8F241679252B52DE005768DF /* Assets.xcassets */,
+				8F24167B252B52DE005768DF /* Info.plist */,
+			);
+			path = "MediFull WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F24165C252B52DD005768DF /* MediFull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F241686252B52DE005768DF /* Build configuration list for PBXNativeTarget "MediFull" */;
+			buildPhases = (
+				8F24165B252B52DD005768DF /* Resources */,
+				8F241685252B52DE005768DF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F241664252B52DD005768DF /* PBXTargetDependency */,
+			);
+			name = MediFull;
+			productName = MediFull;
+			productReference = 8F24165D252B52DD005768DF /* MediFull.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8F241660252B52DD005768DF /* MediFull WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F241682252B52DE005768DF /* Build configuration list for PBXNativeTarget "MediFull WatchKit App" */;
+			buildPhases = (
+				8F24165F252B52DD005768DF /* Resources */,
+				8F241681252B52DE005768DF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F241673252B52DE005768DF /* PBXTargetDependency */,
+			);
+			name = "MediFull WatchKit App";
+			productName = "MediFull WatchKit App";
+			productReference = 8F241661252B52DD005768DF /* MediFull WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8F24166F252B52DE005768DF /* MediFull WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F24167E252B52DE005768DF /* Build configuration list for PBXNativeTarget "MediFull WatchKit Extension" */;
+			buildPhases = (
+				8F24166C252B52DE005768DF /* Sources */,
+				8F24166D252B52DE005768DF /* Frameworks */,
+				8F24166E252B52DE005768DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MediFull WatchKit Extension";
+			productName = "MediFull WatchKit Extension";
+			productReference = 8F241670252B52DE005768DF /* MediFull WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F241657252B52DC005768DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Burak Yıldırım";
+				TargetAttributes = {
+					8F24165C252B52DD005768DF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8F241660252B52DD005768DF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8F24166F252B52DE005768DF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8F24165A252B52DC005768DF /* Build configuration list for PBXProject "MediFull" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F241656252B52DC005768DF;
+			productRefGroup = 8F24165E252B52DD005768DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F24165C252B52DD005768DF /* MediFull */,
+				8F241660252B52DD005768DF /* MediFull WatchKit App */,
+				8F24166F252B52DE005768DF /* MediFull WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F24165B252B52DD005768DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F24165F252B52DD005768DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F24166A252B52DE005768DF /* Assets.xcassets in Resources */,
+				8F241668252B52DD005768DF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F24166E252B52DE005768DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F24167A252B52DE005768DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F24166C252B52DE005768DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F241678252B52DE005768DF /* ExtensionDelegate.swift in Sources */,
+				8F241676252B52DE005768DF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F241664252B52DD005768DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F241660252B52DD005768DF /* MediFull WatchKit App */;
+			targetProxy = 8F241663252B52DD005768DF /* PBXContainerItemProxy */;
+		};
+		8F241673252B52DE005768DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F24166F252B52DE005768DF /* MediFull WatchKit Extension */;
+			targetProxy = 8F241672252B52DE005768DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F241666252B52DD005768DF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F241667252B52DD005768DF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F24167C252B52DE005768DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F24167D252B52DE005768DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F24167F252B52DE005768DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKJ4VMRFBL;
+				INFOPLIST_FILE = "MediFull WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakyildirim.MediFull.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		8F241680252B52DE005768DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKJ4VMRFBL;
+				INFOPLIST_FILE = "MediFull WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakyildirim.MediFull.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		8F241683252B52DE005768DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKJ4VMRFBL;
+				IBSC_MODULE = MediFull_WatchKit_Extension;
+				INFOPLIST_FILE = "MediFull WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakyildirim.MediFull.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		8F241684252B52DE005768DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKJ4VMRFBL;
+				IBSC_MODULE = MediFull_WatchKit_Extension;
+				INFOPLIST_FILE = "MediFull WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakyildirim.MediFull.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		8F241687252B52DE005768DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FKJ4VMRFBL;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakyildirim.MediFull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8F241688252B52DE005768DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FKJ4VMRFBL;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakyildirim.MediFull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F24165A252B52DC005768DF /* Build configuration list for PBXProject "MediFull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F24167C252B52DE005768DF /* Debug */,
+				8F24167D252B52DE005768DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F24167E252B52DE005768DF /* Build configuration list for PBXNativeTarget "MediFull WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F24167F252B52DE005768DF /* Debug */,
+				8F241680252B52DE005768DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F241682252B52DE005768DF /* Build configuration list for PBXNativeTarget "MediFull WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F241683252B52DE005768DF /* Debug */,
+				8F241684252B52DE005768DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F241686252B52DE005768DF /* Build configuration list for PBXNativeTarget "MediFull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F241687252B52DE005768DF /* Debug */,
+				8F241688252B52DE005768DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F241657252B52DC005768DF /* Project object */;
+}
