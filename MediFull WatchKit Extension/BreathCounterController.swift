@@ -46,6 +46,7 @@ class BreathCounterController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
+        globalBreathOutTime += 1
         
         // Configure interface objects here.
         
@@ -53,6 +54,8 @@ class BreathCounterController: WKInterfaceController {
             globalBreathOutTime = detailData.outTime
             globalTakeBreathTime = detailData.takeTime
             globalHoldTime = detailData.holdTime
+            
+            holdElapsedTime = detailData.holdTime
             
             var tempData: Int
             

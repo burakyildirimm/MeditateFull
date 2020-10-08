@@ -21,21 +21,21 @@ class BreathsTableController: WKInterfaceController {
     override func awake(withContext context: Any?) {
       super.awake(withContext: context)
         
-        let huzur = Breath(name: "Huzur", color: UIColor.blue, takeTime: 3, holdTime: 3, outTime: 12)
-        let sakin = Breath(name: "Sakinlik", color: UIColor.red, takeTime: 6, holdTime: 3, outTime: 3)
-        let stres = Breath(name: "Stres", color: UIColor.blue, takeTime: 5, holdTime: 3, outTime: 3)
-        let uyku = Breath(name: "Uyku", color: UIColor.red, takeTime: 9, holdTime: 3, outTime: 3)
+        let peaceful = Breath(name: "Peaceful", color: UIColor.blue, takeTime: 4, holdTime: 7, outTime: 8)
+        let kapalabati = Breath(name: "Morning Bomb", color: UIColor.red, takeTime: 3, holdTime: 2, outTime: 2)
+        let muscle = Breath(name: "Muscle Relaxing", color: UIColor.blue, takeTime: 4, holdTime: 5, outTime: 6)
+        let life = Breath(name: "Life Breath", color: UIColor.red, takeTime: 4, holdTime: 5, outTime: 8)
+        let stress = Breath(name: "Stress", color: UIColor.blue, takeTime: 3, holdTime: 6, outTime: 4)
+        let sleep = Breath(name: "Sleep", color: UIColor.red, takeTime: 4, holdTime: 0, outTime: 4)
+        let calm = Breath(name: "Calm", color: UIColor.blue, takeTime: 4, holdTime: 0, outTime: 2)
         
-        breaths.append(huzur)
-        breaths.append(sakin)
-        breaths.append(stres)
-        breaths.append(uyku)
-        
-        //Will delete!
-        breaths.append(huzur)
-        breaths.append(sakin)
-        breaths.append(stres)
-        breaths.append(uyku)
+        breaths.append(peaceful)
+        breaths.append(kapalabati)
+        breaths.append(muscle)
+        breaths.append(life)
+        breaths.append(stress)
+        breaths.append(sleep)
+        breaths.append(calm)
         
         loadTableData()
     }
