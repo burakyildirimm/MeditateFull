@@ -16,21 +16,27 @@
                                 <button alignment="center" verticalAlignment="center" id="H1J-NM-ieS">
                                     <group key="contentGroup" width="100" height="100" alignment="left" radius="50" id="0IJ-By-yol" userLabel="ust">
                                         <items>
-                                            <group width="80" height="80" alignment="center" verticalAlignment="center" radius="40" id="zMt-EY-AEb" userLabel="orta">
+                                            <group width="90" height="90" alignment="center" verticalAlignment="center" radius="45" id="zMt-EY-AEb" userLabel="orta">
                                                 <items>
                                                     <group width="70" height="70" alignment="center" verticalAlignment="center" radius="35" id="eRV-T7-kyw" userLabel="alt">
                                                         <items>
-                                                            <group width="50" height="50" alignment="center" verticalAlignment="center" radius="25" id="STi-yy-q5m" userLabel="center">
-                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <group width="81" height="40" alignment="center" verticalAlignment="center" radius="20" id="STi-yy-q5m" userLabel="center">
+                                                                <items>
+                                                                    <label alignment="center" verticalAlignment="center" text="START" id="MGH-Se-fBF">
+                                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                                                                    </label>
+                                                                </items>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </group>
                                                         </items>
-                                                        <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </group>
                                                 </items>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </group>
                                         </items>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.098913741439999994" green="0.2246361301" blue="0.95436562820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </group>
                                     <connections>
                                         <segue destination="icS-rj-bTA" kind="push" id="P2u-U3-5np"/>
@@ -113,7 +119,7 @@
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </group>
                                         </items>
-                                        <color key="backgroundColor" red="0.50141257029999997" green="0.47387652590000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.098913741439999994" green="0.2246361301" blue="0.95436562820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </group>
                                 </button>
                             </items>
