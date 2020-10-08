@@ -11,9 +11,12 @@
 		8F241668252B52DD005768DF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F241666252B52DD005768DF /* Interface.storyboard */; };
 		8F24166A252B52DE005768DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F241669252B52DE005768DF /* Assets.xcassets */; };
 		8F241671252B52DE005768DF /* MediFull WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8F241670252B52DE005768DF /* MediFull WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8F241676252B52DE005768DF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F241675252B52DE005768DF /* InterfaceController.swift */; };
+		8F241676252B52DE005768DF /* BreathCounterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F241675252B52DE005768DF /* BreathCounterController.swift */; };
 		8F241678252B52DE005768DF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F241677252B52DE005768DF /* ExtensionDelegate.swift */; };
 		8F24167A252B52DE005768DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F241679252B52DE005768DF /* Assets.xcassets */; };
+		8F24168A252CAB49005768DF /* BreathsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F241689252CAB49005768DF /* BreathsTableController.swift */; };
+		8F24168C252DF9B8005768DF /* BreathRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F24168B252DF9B8005768DF /* BreathRowController.swift */; };
+		8F24168E252E0708005768DF /* Breaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F24168D252E0708005768DF /* Breaths.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,10 +68,13 @@
 		8F241669252B52DE005768DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F24166B252B52DE005768DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F241670252B52DE005768DF /* MediFull WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MediFull WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F241675252B52DE005768DF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8F241675252B52DE005768DF /* BreathCounterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathCounterController.swift; sourceTree = "<group>"; };
 		8F241677252B52DE005768DF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		8F241679252B52DE005768DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F24167B252B52DE005768DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F241689252CAB49005768DF /* BreathsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathsTableController.swift; sourceTree = "<group>"; };
+		8F24168B252DF9B8005768DF /* BreathRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathRowController.swift; sourceTree = "<group>"; };
+		8F24168D252E0708005768DF /* Breaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breaths.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +120,13 @@
 		8F241674252B52DE005768DF /* MediFull WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				8F241675252B52DE005768DF /* InterfaceController.swift */,
+				8F24168D252E0708005768DF /* Breaths.swift */,
+				8F241689252CAB49005768DF /* BreathsTableController.swift */,
+				8F24168B252DF9B8005768DF /* BreathRowController.swift */,
+				8F241675252B52DE005768DF /* BreathCounterController.swift */,
 				8F241677252B52DE005768DF /* ExtensionDelegate.swift */,
-				8F241679252B52DE005768DF /* Assets.xcassets */,
 				8F24167B252B52DE005768DF /* Info.plist */,
+				8F241679252B52DE005768DF /* Assets.xcassets */,
 			);
 			path = "MediFull WatchKit Extension";
 			sourceTree = "<group>";
@@ -249,8 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F24168A252CAB49005768DF /* BreathsTableController.swift in Sources */,
 				8F241678252B52DE005768DF /* ExtensionDelegate.swift in Sources */,
-				8F241676252B52DE005768DF /* InterfaceController.swift in Sources */,
+				8F24168C252DF9B8005768DF /* BreathRowController.swift in Sources */,
+				8F241676252B52DE005768DF /* BreathCounterController.swift in Sources */,
+				8F24168E252E0708005768DF /* Breaths.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +459,7 @@
 				IBSC_MODULE = MediFull_WatchKit_Extension;
 				INFOPLIST_FILE = "MediFull WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.burakyildirim.MediFull.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MediFull WatchKit App";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,7 +478,7 @@
 				IBSC_MODULE = MediFull_WatchKit_Extension;
 				INFOPLIST_FILE = "MediFull WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.burakyildirim.MediFull.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MediFull WatchKit App";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,7 +495,7 @@
 				DEVELOPMENT_TEAM = FKJ4VMRFBL;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.burakyildirim.MediFull;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MediFull;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -496,7 +508,7 @@
 				DEVELOPMENT_TEAM = FKJ4VMRFBL;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.burakyildirim.MediFull;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MediFull;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

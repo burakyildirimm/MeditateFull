@@ -1,15 +1,96 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="icS-rj-bTA">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--MeditateFull-->
+        <scene sceneID="4th-3r-9zG">
+            <objects>
+                <controller identifier="Breaths" title="MeditateFull" id="icS-rj-bTA" customClass="BreathsTableController" customModule="MediFull_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="BMd-Z3-L1S">
+                            <items>
+                                <tableRow identifier="BreathRow" id="47t-ez-BB5" customClass="BreathRowController" customModule="MediFull_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="ZLM-iv-xlJ">
+                                        <items>
+                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="pJE-sO-Vac">
+                                                <color key="color" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </separator>
+                                            <group alignment="left" layout="vertical" spacing="0.0" id="bfu-xZ-3vS">
+                                                <items>
+                                                    <group width="1" height="32" alignment="left" spacing="4" id="9oA-QU-UoT">
+                                                        <items>
+                                                            <label alignment="center" verticalAlignment="center" text="Huzur" textAlignment="center" id="JwV-qv-3eQ">
+                                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="breathLabel" destination="JwV-qv-3eQ" id="sBe-v4-EzL"/>
+                                        <outlet property="mySeperator" destination="pJE-sO-Vac" id="HPe-ef-NGI"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="breathsTable" destination="BMd-Z3-L1S" id="iPa-XT-RRC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-132" y="126"/>
+        </scene>
+        <!--Breaths-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller identifier="actionBreath" title="Breaths" id="AgC-eL-Hgc" customClass="BreathCounterController" customModule="MediFull_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="Ready" textAlignment="left" id="mHE-Z6-PYB">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="24"/>
+                        </label>
+                        <group width="1" height="1" heightAdjustment="-29" alignment="center" contentMode="center" layout="vertical" id="vMW-0E-9rQ">
+                            <items>
+                                <button alignment="center" verticalAlignment="center" id="hxg-LI-g3A">
+                                    <group key="contentGroup" width="116" height="116" alignment="left" radius="58" id="xaC-AP-d7W" userLabel="ust">
+                                        <items>
+                                            <group width="68" height="68" alignment="center" verticalAlignment="center" alpha="0.75" radius="34" id="OkY-HM-EeL" userLabel="orta">
+                                                <items>
+                                                    <group width="68" height="68" alignment="center" verticalAlignment="center" radius="34" id="PFa-m6-7av" userLabel="alt">
+                                                        <items>
+                                                            <label alignment="center" verticalAlignment="center" text="0" textAlignment="center" id="Lmq-yF-nmz">
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <fontDescription key="font" type="system" weight="medium" pointSize="22"/>
+                                                            </label>
+                                                        </items>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </group>
+                                                </items>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.50141257029999997" green="0.47387652590000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="breathCircle" destination="OkY-HM-EeL" id="3zI-KQ-Ue8"/>
+                        <outlet property="inOutLabel" destination="mHE-Z6-PYB" id="CKQ-Fm-n4e"/>
+                        <outlet property="myTimer" destination="Lmq-yF-nmz" id="Ahp-Fy-dBi"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="129" y="119"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
