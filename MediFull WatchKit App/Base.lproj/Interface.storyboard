@@ -11,18 +11,18 @@
             <objects>
                 <controller id="Csk-Yc-1sx">
                     <items>
-                        <group width="1" height="1" heightAdjustment="-29" alignment="center" verticalAlignment="center" contentMode="center" layout="vertical" id="C3c-37-EcO">
+                        <group width="1" height="1" heightAdjustment="-29" alignment="center" verticalAlignment="center" contentMode="center" layout="vertical" id="glQ-Oh-ax7">
                             <items>
-                                <button alignment="center" verticalAlignment="center" id="H1J-NM-ieS">
-                                    <group key="contentGroup" width="100" height="100" alignment="left" radius="50" id="0IJ-By-yol" userLabel="ust">
+                                <button alignment="center" verticalAlignment="center" id="3bI-3y-msQ" userLabel="Button12">
+                                    <group key="contentGroup" width="100" height="100" alignment="left" radius="50" id="8WX-eC-PPo" userLabel="ust">
                                         <items>
-                                            <group width="90" height="90" alignment="center" verticalAlignment="center" radius="45" id="zMt-EY-AEb" userLabel="orta">
+                                            <group width="90" height="90" alignment="center" verticalAlignment="center" radius="45" id="tDa-cE-MRz" userLabel="orta">
                                                 <items>
-                                                    <group width="70" height="70" alignment="center" verticalAlignment="center" radius="35" id="eRV-T7-kyw" userLabel="alt">
+                                                    <group width="70" height="70" alignment="center" verticalAlignment="center" radius="35" id="BzV-Gb-iko" userLabel="alt">
                                                         <items>
-                                                            <group width="81" height="40" alignment="center" verticalAlignment="center" radius="20" id="STi-yy-q5m" userLabel="center">
+                                                            <group width="81" height="40" alignment="center" verticalAlignment="center" radius="20" id="33q-Ss-QbP" userLabel="center">
                                                                 <items>
-                                                                    <label alignment="center" verticalAlignment="center" text="START" id="MGH-Se-fBF">
+                                                                    <label alignment="center" verticalAlignment="center" text="START" id="WB3-ol-WtI">
                                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <fontDescription key="font" type="boldSystem" pointSize="16"/>
                                                                     </label>
@@ -36,10 +36,10 @@
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </group>
                                         </items>
-                                        <color key="backgroundColor" red="0.098913741439999994" green="0.2246361301" blue="0.95436562820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.098039215690000001" green="0.22352941179999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </group>
                                     <connections>
-                                        <segue destination="icS-rj-bTA" kind="push" id="P2u-U3-5np"/>
+                                        <segue destination="icS-rj-bTA" kind="push" id="A66-g3-1UC"/>
                                     </connections>
                                 </button>
                             </items>
@@ -132,7 +132,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="129" y="119"/>
+            <point key="canvasLocation" x="128" y="126"/>
         </scene>
     </scenes>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
