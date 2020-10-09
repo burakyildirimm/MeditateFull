@@ -6,10 +6,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Meditate&Full-->
         <scene sceneID="CEb-D7-hmE">
             <objects>
-                <controller id="Csk-Yc-1sx">
+                <controller title="Meditate&amp;Full" id="Csk-Yc-1sx">
                     <items>
                         <group width="1" height="1" heightAdjustment="-29" alignment="center" verticalAlignment="center" contentMode="center" layout="vertical" id="glQ-Oh-ax7">
                             <items>
@@ -49,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="-397" y="126"/>
         </scene>
-        <!--MeditateFull-->
+        <!--Menu-->
         <scene sceneID="4th-3r-9zG">
             <objects>
-                <controller identifier="Breaths" title="MeditateFull" id="icS-rj-bTA" customClass="BreathsTableController" customModule="MediFull_WatchKit_Extension">
+                <controller identifier="Breaths" title="Menu" id="icS-rj-bTA" customClass="BreathsTableController" customModule="MediFull_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="BMd-Z3-L1S">
                             <items>
